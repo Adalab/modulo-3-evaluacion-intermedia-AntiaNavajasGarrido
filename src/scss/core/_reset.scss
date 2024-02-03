@@ -7,3 +7,30 @@
 :root {
   font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid;
+  border-color: lightgray;
+  margin-bottom: 20px;
+}
+
+.phrases__list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.phrase__card {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character__name{
+  color: lightgreen;
+}
